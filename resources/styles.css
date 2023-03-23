@@ -5,6 +5,11 @@
   text-length: 32;
 }
 
+text {
+  fill: white;
+  font-size: 20;
+}
+
 #background {
   width: 100%;
   height: 100%;
@@ -15,7 +20,8 @@
   x: -1;
   y: -150;
   width: 2;
-  fill: #FFFF00;
+  /* fill: #FFFF00; */
+  fill: white;
 }
 
 .scale.fifteen {
@@ -40,3 +46,20 @@
   font-weight: bold;
   fill: white;
 }
+
+#day line{
+  fill: white;
+}
+
+#day text{
+  fill: white;
+  font-size: 18;
+}
+
+#month line{
+  fill: white;
+}
+
+#month text{
+  fill: white;
+  font-size: 18;
